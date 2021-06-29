@@ -7,6 +7,9 @@
 
 }
 body{
+    background-image: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: left -250px top -600px, right -250px bottom -600px;
     background-color: hsl(185, 75%, 39%);
     height: 100vh;
     min-height:40rem ;
@@ -16,31 +19,8 @@ body{
     align-items: center;
 }
 
-.left-background{
-    background-image: url(images/bg-pattern-top.svg);
-    /* background-size: cover; */
-    background-repeat: no-repeat;
-    background-position: 100% 100%;
-    width: 50vw;
-    height: 60vh;
-    position: absolute;
-    top:0%;
-    left: 0%;
-    z-index: inherit;
-}
-.right-background{
-    background-image: url(images/bg-pattern-bottom.svg);
-    background-repeat: no-repeat;
-    background-position: 0% 0%;
-    width: 50vw;
-    height: 60vh;
-    position: absolute;
-    bottom: 0%;
-    right: 0%;
-}
 .container{
     background-color: hsl(0, 0%, 100%);
-    z-index: 2;
     width:90%;
     max-width:20rem;
     height:30rem;
