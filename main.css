@@ -40,7 +40,7 @@ body{
 
 .container{
     background-color: hsl(0, 0%, 100%);
-    z-index:2;
+    z-index: 2;
     width:90%;
     max-width:20rem;
     height:30rem;
